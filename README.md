@@ -16,14 +16,14 @@ This will start the app in development mode, and you can run it on an iOS or And
 
 # Features
 The app allows users to:
--Add new goals by pressing a button
--Delete existing goals by pressing on them
+- Add new goals by pressing a button
+- Delete existing goals by pressing on them
 
 # Technologies Used
 The app is built using the following technologies:
--React Native
--Expo
--JavaScript
+- React Native
+- Expo
+- JavaScript
 
 # Contributing
 Contributions are welcome! If you find a bug or would like to add a new feature, please open an issue or submit a pull request.
