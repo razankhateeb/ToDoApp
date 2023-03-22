@@ -4,7 +4,7 @@ This is a simple React Native to-do list app that allows users to add goals by p
 # Getting Started
 To get started with the app, clone the repository and run npm install or yarn install to install the necessary dependencies.
 ```
-git clone https://github.com/your-username/react-native-todo-list.git
+git clone https://github.com/razankhateeb/ToDoApp.git
 cd react-native-todo-list
 npm install
 ```
