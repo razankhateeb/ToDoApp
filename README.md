@@ -10,7 +10,7 @@ npm install
 ```
 Once the dependencies are installed, you can run the app using npm start or yarn start.
 ```
-npm start
+expo start
 ```
 This will start the app in development mode, and you can run it on an iOS or Android simulator or on a physical device using the Expo app.
 
