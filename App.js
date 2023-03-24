@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 
+
 import {
   Button,
   ScrollView,
@@ -15,6 +16,7 @@ import GoalInput from "./components/GoalInput";
 
 export default function App() {
   const [courseGoals, setCourseGoals] = useState([]);
+
   const [modalIsVisible, setModalIsVisible] = useState(false);
 
   function ModalVisibility() {
@@ -30,6 +32,7 @@ export default function App() {
     //if using flat list
     setCourseGoals((currentCourseGoals) => [
       ...currentCourseGoals,
+
       { text: enteredGoalText, id: Math.random().toString() },
     ]);
     endModalHandler();
@@ -75,11 +78,13 @@ export default function App() {
                 <GoalItem
                   text={itemData.item.text}
                   id={itemData.item.id}
+
                   onDeleteItem={deleteGoalHandler}
                 />
               );
             }}
             //if data coming from api has key and we want to autogenerate our own we can use key extractor
+
             keyExtractor={(item, index) => {
               return item.id;
             }}

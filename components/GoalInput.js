@@ -24,6 +24,8 @@ function GoalInput(props) {
           style={styles.image}
           source={require("../assets/images/goal.png")}
         />
+      
+    
         <TextInput
           style={styles.textInput}
           placeholder="Enter your goal"
@@ -52,6 +54,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 16,
     backgroundColor: "#311b6b",
+
     color: "#cccccc",
   },
   buttonContainer: {
@@ -71,6 +74,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
     padding: 16,
     backgroundColor: "#e4d0ff",
+
     borderColor: "#e4d0ff",
     color: "#120480",
     borderRadius: 6,
